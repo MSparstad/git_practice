@@ -10,7 +10,7 @@ A simple test project to familiarize myself with Git, GitHub & Markdown.
 
 
 
-
+<!--
 Titles and internal titles
 Introduction - the project's aim
 Technologies
@@ -25,3 +25,4 @@ Examples of use
 Project status 
 Sources
 Other information
+-->
