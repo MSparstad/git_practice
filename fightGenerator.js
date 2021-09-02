@@ -1,6 +1,6 @@
-/* TODO:
-    generate a string output of a random sentence describing a
-    battle between 2 actors
+/* 
+    generates a string output of a random sentence describing a
+    battle between 2 actors in a random arena.
 */
 
 const combatants = ['Ogre', 'Troll', 'Wench', 'Squirrel', 'Baby', 'Land Shark', 'Judge Fredd'];
