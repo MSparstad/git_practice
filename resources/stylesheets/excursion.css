@@ -1,4 +1,25 @@
 * {
     background-color: black;
-    color: white;    
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    font-size: 16px;
+    color: aquamarine;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+.copyright {
+    text-align: right;
 }
