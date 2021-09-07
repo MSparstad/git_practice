@@ -87,12 +87,17 @@
   }
 * {
     box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: white;
     margin: 0 auto;
     border: 40px solid khaki;
+}
+
+ul {
+    font-size: 18px;
 }
 
 h1 {
@@ -121,6 +126,7 @@ h2 {
     margin: 5px;
     width: 32%;
     text-align: center;
+    font-size: 22px;
 }
 
 .dark-sienna {
@@ -144,11 +150,11 @@ h2 {
 }
 
 .font-container {
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .font-panel {
+    font-size: 22px;
    margin: 5px 15px;
    display: inline-block;
    height: 150px;
@@ -182,4 +188,27 @@ h2 {
 
 .underline {
     text-decoration: underline;
+}
+
+.text-panel {
+    display:inline-block;
+}
+
+.text-panel h1 {
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Roboto Mono';
+}
+
+
+.text-panel h2 {
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono';
+}
+
+.text-panel p {
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: 'Source Code Pro';
 }
