@@ -14,19 +14,29 @@
     font-family: 'Fjalla One';
     font-size: 16px;
 }
+
+body {
+    background-color: dimgrey;
+}
+
 /*Styles applied to header*/
 header {
     width: 100%;
-
-    background-color: dimgray;
+    height: auto;
+    background-color: darkgray;
+    background: linear-gradient(-45deg, darkgray, dimgrey);
 }
 
 header h1 {
-    display:inline-block;
+    display:block;
     width: 25%;
+    font-size: 2rem;
+    margin: 1em 0 0 1em;
+    opacity: 0.8;
 }
 
 .header-nav {
+    font-size: 1rem;
     display: inline-block;
 }
 
@@ -36,9 +46,9 @@ header h1 {
 }
 
 .header-nav ul li {
-    border: 1px solid red;
     display: inline-block;
-    width: 15%;
+    width: auto;
+    margin: 0.33rem;
 }
 
 body {
