@@ -252,5 +252,30 @@ figcaption {
 
 /*Footer style*/
 footer {
-    background-color: black;
+    font-family: Helvetica;
+    font-weight: 600;
+    height: 230px;
+    width: 100%;
+    
+    padding-top: 5px;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:200px;
+}
+
+.copyright {
+    float: left;
+    
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+    line-height: 0px;
 }
