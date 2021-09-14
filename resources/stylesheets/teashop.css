@@ -183,6 +183,8 @@ figcaption {
     position:relative;
     width: 95%;
     left:2.5%;
+    display: flex;
+    justify-content: center;
 }
 
 #locations-img {
@@ -192,37 +194,60 @@ figcaption {
     height: 500px;
 }
 
+#locations-header {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+    background: none;
+    font-size: larger;
+}
+
 .location-div {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 25%;
-    height: 66%;
-    padding: 10%;
+    width: 300px;
+    height: 66%;    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
+}
+
+.container h3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 5%);
     
 }
 
 .location-one {
+    display: flex;
     left: 0%;
-    transform: translate(25%, -50%);
+    transform: translate(25%, -40%);
+    flex: 1 0 300px;
 }
 
 .location-two {
+    display: flex;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 }
 
 .location-three {
+    display: flex;
     left: 100%;
-    transform: translate(-125%, -50%);
+    transform: translate(-125%, -40%);
 }
 
 .location-div p {
-    width: 100%;    
+    width: auto;
+    position: static;
+    transform: translate(0, 100%);
+    font-weight: 525;
 }
 
 /*Footer style*/
