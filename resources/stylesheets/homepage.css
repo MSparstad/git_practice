@@ -135,6 +135,7 @@ h1 {
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
+    font-size: 1.7em;
 }
 
 .intro-container {
@@ -142,6 +143,3 @@ h1 {
     width: 33%;
     padding-top: 5%;
 }
-
-
-
