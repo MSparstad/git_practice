@@ -229,7 +229,7 @@ header .mobile {
   /* padding: 2rem; */
   margin: 0px 1.25rem;
   background-color: white;
-  height: 39.6rem;
+  height: auto;
   width: 50%;
   margin: 0 19px;
 }
@@ -250,6 +250,7 @@ header .mobile {
   width: 80%;
   height: 30%;
   margin: 0 auto;
+  padding-bottom: 1.5rem;
 }
 
 .feature h2 {
@@ -307,6 +308,8 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
+  
 }
 
 #filters-section .content h3 {
@@ -370,13 +373,14 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  height: 12rem;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -385,7 +389,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
