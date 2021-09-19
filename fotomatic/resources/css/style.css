@@ -176,11 +176,13 @@ header .mobile {
   }
 
   #sign-up-cta {
+    display: none;
     position: static;
     width: auto;
     height: auto;
     background-color: transparent;
     border: none;
+    
   }
 
   #sign-up-cta .content {
