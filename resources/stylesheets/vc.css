@@ -3,3 +3,127 @@
 /*
 Photo by Joel & Jasmin Førestbird on Unsplash
 */
+
+
+
+
+
+
+
+
+/* Universal styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    
+    background-color: rgb(245, 245, 245);
+    height: auto;
+    text-align: center;
+    color: tan;
+}
+
+/* Header styles */
+
+header {
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: saddlebrown;
+    align-items: center;
+    
+}
+
+header .content {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 0.4rem 1.25rem
+}
+
+#logo {
+    
+    background-image: url("../images/log_logo.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height:100%;
+    width: 4.5rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    
+}
+
+header nav {
+    margin: auto;
+    flex-basis: 40rem;
+    padding-right: 4.5rem;
+}
+nav ul {
+    width: auto;
+}
+
+nav ul li{
+   display: inline-block;
+   padding: 0 5%;
+   border-radius: 5%;
+   background-color: sienna;
+}
+
+/* Main content styles */
+
+h1 {
+    font-size: 8rem;    
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+.splash-page {
+
+    top: 5rem;
+    height: 60rem;
+    background-image: url("../images/company_page/joel-jasmin-forestbird.jpg");
+    background-size:auto;
+}
+
+.splash-page .container {
+    grid-area: 4 / 6 / span 1 / span 3;
+    background-color: wheat;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.splash-page .more {
+    grid-area: 8 / 7 / span 1 / span 1;
+    padding: 1rem;
+    background-color: wheat;
+    opacity: 0.8;
+    border-radius: 2px;
+    
+}
+
+.more a {
+    display: block;
+    font-size: 24px;    
+    font-weight: bold;
+    width: inherit;
+}
+
+.more a img {
+    content: url("../images/company_page/web-arrow-png.jpg");
+    max-width: 5rem;
+    background: transparent;
+}
