@@ -108,11 +108,12 @@ h1 {
 
 .splash-page .more {
     grid-area: 8 / 7 / span 1 / span 1;
-    padding: 1rem;
-    background-color: wheat;
-    opacity: 0.8;
-    border-radius: 2px;
-    
+    padding: 0 1rem;
+    /* background-color: wheat; */
+    opacity: 1;
+    border-radius: 5%;
+    width: 100%;
+    font-size: larger;  
 }
 
 .more a {
@@ -123,7 +124,8 @@ h1 {
 }
 
 .more a img {
-    content: url("../images/company_page/web-arrow-png.jpg");
-    max-width: 5rem;
-    background: transparent;
+    content: url("../images/company_page/output-onlinepngtools.png");
+    max-width: 100%;
+    width: inherit;
+    height: 25%;
 }
