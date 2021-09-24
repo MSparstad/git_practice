@@ -210,40 +210,37 @@ h1 {
 
 footer {
     box-sizing: border-box;
-    padding: 5px;
+    padding: 5px 10px 0 10px;
     width: 100%;
     height: auto;
     background-color: saddlebrown;
-    align-content: center;
+    align-items: center;
     font-weight: 550;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .footer h2 {
     font-size: 2.5rem;
 }
 
-.footer-container {
-    display: flex;
+.footer-container {    
     flex-direction: column;
     height: 100%;
-    align-items: center;    
+    align-items: center;
+    width: 100%;
 }
 
 .email {
-    display: inline-block;
-    width: fit-content;
-    justify-self: center;
+    
 }
-
 
 .credit {
-    align-self: end;
-    justify-self: end;
+    justify-self: right;
     color: tan;
     line-height: 1.6;
-    display: inline-block;
     width: fit-content;
+    font-weight: normal;
+    margin-left: auto;
+    transform: translate(0, -100%);
+    
 }
-
-
