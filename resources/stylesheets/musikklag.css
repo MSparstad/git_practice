@@ -3,3 +3,110 @@ font-family: 'Caramel', cursive;
 font-family: 'Gemunu Libre', sans-serif;
 */
 
+
+/* Variables */ 
+
+:root {
+    --background-clr: #30638E;
+    --dark-background-clr: #003D5B;
+    --accent-clr: #D1495B;
+    --accent-clr-2: #EDAE49;
+}
+
+/* Universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Gemunu Libre';
+}
+
+main {
+    background-color: var(--background-clr);
+    margin-left: 200px;
+}
+
+
+
+
+/* Nav menu styles 
+   Image credit: 
+   Denise Jans - unsplash 
+   */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: var(--dark-background-clr);
+    background-image: url(../images/Musikklag/denise-jans-synth-unsplash.jpg);
+    background-size:200px 100%;
+    padding: 5% 0;
+}
+
+nav ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 10px;
+}
+
+nav ul li {
+    /* padding: 15% 10% 0 0; */
+    color: var(--accent-clr);
+    width: 40%;
+    border-style: none none none solid;
+    border-width: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:inherit;
+}
+
+/* main content styles */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+/* Image credit: robin glauser - unsplash */
+.splash {
+    height: 100vh;
+    background-image: url(../images/Musikklag/robin-glauser-electronics-unsplash.jpg);
+    background-size:cover;
+}
+
+.splash .container {
+    position: relative;
+}
+
+.splash .first {
+    grid-area: 2 / 2 / span 3 / span 4;
+}
+.container.first img {
+    height: 100%;
+    width: 100%;
+}
+
+.photo-credit {
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    font-weight: 600;
+}
+
+
+
+
+
