@@ -45,7 +45,7 @@ nav {
     font-weight: bold;
     font-size: 1.4rem;
     background-color: var(--dark-background-clr);
-    background-image: url(../images/Musikklag/denise-jans-synth-unsplash.jpg);
+    background-image: url(../images/Musikklag/denise-jans-synth-unsplash.webp);
     background-size:200px 100%;
     padding: 5% 0;
 }
@@ -83,7 +83,7 @@ nav ul li a {
 /* Image credit: robin glauser - unsplash */
 .splash {
     height: 100vh;
-    background-image: url(../images/Musikklag/robin-glauser-electronics-unsplash.jpg);
+    background-image: url(../images/Musikklag/robin-glauser-electronics-unsplash.webp);
     background-size:cover;
 }
 
@@ -121,8 +121,12 @@ nav ul li a {
     top: 92%;
     left: 5px;
     font-weight: 600;
+    color:azure;
 }
 
+.photo-credit a {
+    color: azure;
+}
 
 
 
